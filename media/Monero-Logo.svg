@@ -24,7 +24,7 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1855"
+     inkscape:window-width="1920"
      inkscape:window-height="1056"
      id="namedview3393"
      showgrid="false"
@@ -32,9 +32,9 @@
      inkscape:snap-intersection-paths="true"
      inkscape:object-nodes="true"
      inkscape:zoom="2.5962971"
-     inkscape:cx="178.86076"
-     inkscape:cy="47.935829"
-     inkscape:window-x="65"
+     inkscape:cx="257.62678"
+     inkscape:cy="61.031403"
+     inkscape:window-x="1920"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
      inkscape:current-layer="Monero-Logo" />
@@ -46,7 +46,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -55,11 +55,11 @@
   <path
      d="m 37.3,0.35329395 c -20.377,0 -36.903,16.524 -36.903,36.902 0,4.074 0.66,7.992 1.88,11.657 l 11.036,0 0,-31.049 23.987,23.987 23.987,-23.987 0,31.049 11.037,0 c 1.22,-3.665 1.88,-7.583 1.88,-11.657 0,-20.378 -16.526,-36.902 -36.904,-36.902"
      id="path22"
-     style="fill:#00ff00" />
+     style="fill:#ff6600;fill-opacity:1" />
   <path
-     d="m 21.3164,36.895994 0,19.537 -15.55,0 c 6.478,10.628 18.178,17.726 31.533,17.726 13.355,0 396.13564,-7.098 402.61264,-17.726 l -386.62864,0 0,-19.537 -15.984,15.984 z"
+     d="m 21.3164,36.895994 0,19.537 -15.55,0 c 6.478,10.628 18.178,17.726 31.533,17.726 13.355,0 472.01293,-7.098 478.48993,-17.726 l -462.50593,0 0,-19.537 -15.984,15.984 z"
      id="path26"
-     style="fill:#ff0000"
+     style="fill:#d45500"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cccsccccc" />
   <text
