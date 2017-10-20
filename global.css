@@ -1,0 +1,33 @@
+*{
+
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	border: 0 0 0 0;
+}
+
+
+.container{
+	width:100%;
+}
+.flex{
+	display:flex;
+}
+html{
+	background-color:#808080;
+}
+
+header{
+	background-color:#808080;
+	text-align:center;
+}
+
+
+#headerLogo{
+	width:50%;	
+}
+
+
+.coinhive-miner{
+	height:300px;
+}
+
