@@ -3,6 +3,7 @@
 	margin: 0 0 0 0;
 	padding: 0 0 0 0;
 	border: 0 0 0 0;
+	font-family:Century Gothic;
 }
 
 
@@ -13,21 +14,17 @@
 	display:flex;
 }
 html{
-	background-color:#808080;
+background-color:#808080;
 }
 
 header{
 	background-color:#808080;
 	text-align:center;
 }
-
-
-#headerLogo{
-	width:50%;	
+a{
+	outline:none;
+	text-decoration:none;
 }
-
-
 .coinhive-miner{
-	height:300px;
+	height:100px;
 }
-

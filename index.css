@@ -1,15 +1,33 @@
-*{
-	margin:0 0 0 0;
-	padding:0 0 0 0;
-	border:0 0 0 0;
+#headerLogo{
+	width:30%;	
+}
+#firstlookcontainer{
+	background-image: URL(/home/chris/Pictures/testhurricaneimage2.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	font-size:1.5em;
+}
+#firstlook{
+	background-color:rgba(0,0,0,0.5);
+	display:flex;
+	align-items:center;
+	flex-direction:column;
+	padding:15% 0 15% 0;
+	color:white;
+}
+#firstlookheader{
+	font-size:3em;
+}
+#firstlooksubheader{
+	font-size:1.5em;
+}
+#minebutton{
+	background-color:rgba(256,0,0,1);
+	border:none;
+	outline:none;
+	font-size:2em;
+	color:white;
+	margin-top:20px;
+	padding:25px 25px 25px 25px;
 }
 
-
-.container{
-	width:100%;
-}
-
-.flex{
-display:flex;
-
-}
