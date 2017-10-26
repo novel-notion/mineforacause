@@ -2,7 +2,7 @@
 	width:30%;	
 }
 #firstlookcontainer{
-	background-image: URL(/home/chris/Pictures/testhurricaneimage2.jpg);
+	background-image: URL(./media/hurricane.jpg);
 	background-repeat:no-repeat;
 	background-size:cover;
 	font-size:1.5em;
@@ -22,7 +22,7 @@
 	font-size:1.5em;
 }
 #minebutton{
-	background-color:rgba(256,0,0,1);
+	background-color:#D40000;
 	border:none;
 	outline:none;
 	font-size:2em;
