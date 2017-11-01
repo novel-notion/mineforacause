@@ -1,5 +1,6 @@
 #headerLogo{
 	width:30%;	
+	min-width:500px;
 }
 #firstlookcontainer{
 	background-image: URL(./media/hurricane.jpg);
@@ -9,25 +10,57 @@
 }
 #firstlook{
 	background-color:rgba(0,0,0,0.5);
-	display:flex;
-	align-items:center;
+	width:100%;
 	flex-direction:column;
+	justify-content:center;
 	padding:15% 0 15% 0;
 	color:white;
+	text-align:center;
 }
 #firstlookheader{
-	font-size:3em;
+	font-size:4em;
 }
 #firstlooksubheader{
-	font-size:1.5em;
+	font-size:2em;
+	margin-bottom:50px;
 }
 #minebutton{
-	background-color:#D40000;
-	border:none;
-	outline:none;
-	font-size:2em;
+	background-color:#E40011;
 	color:white;
-	margin-top:20px;
+	font-size:3em;
 	padding:25px 25px 25px 25px;
+}
+
+#howitworkscontainer{
+	background-color:#F9F9F9;
+	padding:50px 0px 50px 0px;	
+}
+
+#howitworks{
+	text-align:center;
+	font-size:5em;
+	margin-bottom:75px;
+}
+#explanation{
+	width:100%;
+	font-size:2.3em;	
+	flex-direction:column;
+	
+}
+#explanation > div{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	padding-top:40px;
+}
+#explanation  p{
+	width:40%;
+	margin-right:10%;
+}
+#explanation img {
+	width: 10%;
+	min-width:250px;
+	height:auto;
+	padding-right:100px;
 }
 
