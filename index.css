@@ -1,3 +1,4 @@
+/**https://coolors.co/2e3532-545F6-f9f9ff9-e40011-9d1f28**/
 #headerLogo{
 	width:30%;	
 	min-width:500px;
@@ -29,6 +30,7 @@
 	color:white;
 	font-size:3em;
 	padding:25px 25px 25px 25px;
+	border-bottom:10px solid #9D1F28;
 }
 
 #howitworkscontainer{
@@ -63,4 +65,62 @@
 	height:auto;
 	padding-right:100px;
 }
+#puertoContainer{
+	background-color:#2E3532;
+	color:#E0E2DB;
+	flex-direction:column;
+}
+#puertoHeaderContainer{
+	flex-direction:column;
+	text-align:center;
+}
+#puertoHeader{
+	font-size:5em;
+	margin-bottom:50px;
+	margin-top:50px;
+}
 
+#puertoInfoContainer{
+	align-items:center;
+}
+#puertoInfo{
+	background-color:#2E3532;
+	font-size:2em;
+	width:40%;
+	text-align:right;
+}
+#puertoInfo p{
+	margin-top:50px;
+	margin-bottom:50px;
+}
+#puertoImage{
+	width:50%;
+	text-align:center;
+
+}
+#puertoImage img{
+	width:90%;
+	height:auto;
+}
+
+#redcrossContainer{
+	flex-direction:column;
+	justify-content:flex-end;
+	background-color:#9D1f28;
+}
+#whereitGoesHeader{
+	font-size:5em;
+	text-align:center;
+	margin-top:50px;
+}
+#redcrossLogo{
+	text-align:center;
+}
+#redcrossLogo img{
+	width:50%;
+}
+#moneyInfo{
+	font-size:2em;
+	text-align:center;
+	padding:0px 50px 0px 50px;
+}
