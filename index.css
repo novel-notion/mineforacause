@@ -88,6 +88,7 @@
 	font-size:2em;
 	width:40%;
 	text-align:right;
+	margin-bottom:50px;
 }
 #puertoInfo p{
 	margin-top:50px;
@@ -106,7 +107,11 @@
 #redcrossContainer{
 	flex-direction:column;
 	justify-content:flex-end;
-	background-color:#9D1f28;
+background-image: URL(./media/relief.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+
+
 }
 #whereitGoesHeader{
 	font-size:5em;
@@ -122,5 +127,61 @@
 #moneyInfo{
 	font-size:2em;
 	text-align:center;
-	padding:0px 50px 0px 50px;
+	padding:0px 50px 50px 50px;
+}
+#redcrossOverlay{
+	background-color:rgba(0,0,0,0.3)	
+}
+#helpOutContainer{
+	background-color:#2E3532;
+	flex-direction:column;
+	text-align:center;
+}
+#weNeedHelpHeader{
+	font-size:5em;
+	padding-top:50px;
+}
+#weNeedHelpSubheader{
+	font-size:3em;
+}
+
+#whatYouCanDo{
+	margin-top:50px;
+	font-size:2.5em;
+	padding: 0px 10% 0px 10%;
+}
+#yourOptions{
+	justify-content:space-around;
+	align-content:center;
+	color:#e0e2db;
+}
+#startMiningContainer{
+	text-align:center;
+}
+
+#startMiningHeader{
+	font-size:2.5em;
+	margin-top:75px;
+}
+#startMining{
+	margin:50px auto 50px auto; 
+	background-color:#E40011;
+	color:white;
+	font-size:3em;
+	width:35%;
+	padding:25px 25px 25px 25px;
+	border-bottom:10px solid #9D1F28;
+}
+#socialMedia {
+	font-size:2em;
+	margin-top:20px;
+}
+#contactMe{
+	background-color:#9D1F28;
+	text-align:center;
+	font-size:2em;
+	padding:25px 0px 25px 0px;
+}
+#contactMe a{
+	color:#e0e2db;
 }
