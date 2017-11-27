@@ -10,8 +10,8 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
-   width="419"
-   height="215"
+   width="247.85892"
+   height="38.569702"
    id="Monero-Logo"
    inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
    sodipodi:docname="mineforacause.svg"
@@ -34,9 +34,9 @@
      inkscape:snap-global="true"
      inkscape:snap-intersection-paths="true"
      inkscape:object-nodes="true"
-     inkscape:zoom="4.2663201"
-     inkscape:cx="115.8841"
-     inkscape:cy="21.846305"
+     inkscape:zoom="0.75418597"
+     inkscape:cx="-327.39714"
+     inkscape:cy="-250.71545"
      inkscape:window-x="67"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
@@ -69,47 +69,14 @@
        id="path-effect4349"
        is_visible="true" />
   </defs>
-  <text
-     xml:space="preserve"
-     style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:-40.14999771px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     x="248.74591"
-     y="111.94465"
-     id="text5106"><tspan
-       sodipodi:role="line"
-       id="tspan5108"
-       x="248.74591"
-       y="111.94465"
-       style="font-size:40px;line-height:1.25"> </tspan></text>
-  <text
-     xml:space="preserve"
-     style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:-40.14999771px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     x="35.906769"
-     y="91.438553"
-     id="text5114"><tspan
-       sodipodi:role="line"
-       id="tspan5116"
-       x="35.906769"
-       y="91.438553"
-       style="font-size:40px;line-height:1.25"> </tspan></text>
   <g
      inkscape:groupmode="layer"
      id="layer1"
      inkscape:label="Layer 1"
-     transform="translate(0,91.438553)">
-    <rect
-       style="opacity:1;fill:#545f66;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.80351686;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect875"
-       width="308.93134"
-       height="181.42099"
-       x="-30.705616"
-       y="13.630649"
-       inkscape:export-filename="/home/chris/Desktop/mineforacause.png"
-       inkscape:export-xdpi="135.33791"
-       inkscape:export-ydpi="135.33791" />
-  </g>
+     transform="translate(0,-84.991759)" />
   <g
      id="g864"
-     transform="translate(0,91.438553)">
+     transform="translate(0,-84.991759)">
     <path
        sodipodi:nodetypes="ccccccccccccccc"
        inkscape:connector-curvature="0"
