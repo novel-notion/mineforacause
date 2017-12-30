@@ -13,17 +13,20 @@
 .flex{
 	display:flex;
 }
-html{
-background-color:#808080;
-}
 
 header{
-	background-color:#2E3532;
+	background-color:#2E3235;
 	text-align:center;
 }
 a{
 	outline:none;
 	text-decoration:none;
+}
+#headerLogo{
+	width:30%;
+	min-width:500px;
+	padding-top:25px;
+	padding-bottom:25px;
 }
 .highlight{	
 	color:#e40011;
