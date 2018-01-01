@@ -1,4 +1,8 @@
-/**https://coolors.co/2E3235-545F6-f9f9ff9-e40011-9d1f28**/
+/**https://coolors.co/2e3532-545F6-f9f9ff9-e40011-9d1f28**/
+#headerLogo{
+	width:30%;	
+	min-width:500px;
+}
 #firstlookcontainer{
 	background-image: URL(./media/hurricane.jpg);
 	background-repeat:no-repeat;
@@ -62,7 +66,7 @@
 	padding-right:100px;
 }
 #puertoContainer{
-	background-color:#2E3235;
+	background-color:#2E3532;
 	color:#E0E2DB;
 	flex-direction:column;
 }
@@ -80,7 +84,7 @@
 	align-items:center;
 }
 #puertoInfo{
-	background-color:#2E3235;
+	background-color:#2E3532;
 	font-size:2em;
 	width:40%;
 	text-align:right;
@@ -129,7 +133,7 @@ background-image: URL(./media/relief.jpg);
 	background-color:rgba(0,0,0,0.3)	
 }
 #helpOutContainer{
-	background-color:#2E3235;
+	background-color:#2E3532;
 	flex-direction:column;
 	text-align:center;
 }

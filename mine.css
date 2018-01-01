@@ -1,14 +1,7 @@
 body{
 	background-color:#F9F9F9;
-	color:#2E3235;
 }
-
 .coinhive-miner{
-	width:40%;
-	min-height:250px;
-	margin-top:50px;
-}
-#minerContainer{
 	width:100%;
 	text-align:center;
 	justify-content:center;
@@ -85,6 +78,7 @@ body{
 	font-size:2em;
 	margin-bottom:40px;
 	width:65%;
+	height:300px;
 
 }
 
@@ -102,6 +96,10 @@ body{
 		margin:0 0 0 0;
 		padding:0 0 0 0;
 	}
+	.answer{
+		border:1px solid red;
+		margin-bottom:100px;
+	}
 
 
 }
@@ -113,6 +111,11 @@ body{
 	#whenDo{
 	}
 	#bulletDo{
+		margin-top:50px;
+		text-align:center;
+	}
+	#bulletDo li{
+		margin-bottom:25px;
 	}
 
 }
