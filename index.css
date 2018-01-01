@@ -1,0 +1,187 @@
+/**https://coolors.co/2e3532-545F6-f9f9ff9-e40011-9d1f28**/
+#headerLogo{
+	width:30%;	
+	min-width:500px;
+}
+#firstlookcontainer{
+	background-image: URL(./media/hurricane.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	font-size:1.5em;
+}
+#firstlook{
+	background-color:rgba(0,0,0,0.5);
+	width:100%;
+	flex-direction:column;
+	justify-content:center;
+	padding:15% 0 15% 0;
+	color:white;
+	text-align:center;
+}
+#firstlookheader{
+	font-size:4em;
+}
+#firstlooksubheader{
+	font-size:2em;
+	margin-bottom:50px;
+}
+#minebutton{
+	background-color:#E40011;
+	color:white;
+	font-size:3em;
+	padding:25px 25px 25px 25px;
+	border-bottom:10px solid #9D1F28;
+}
+
+#howitworkscontainer{
+	background-color:#F9F9F9;
+	padding:50px 0px 50px 0px;	
+}
+
+#howitworks{
+	text-align:center;
+	font-size:5em;
+	margin-bottom:75px;
+}
+#explanation{
+	width:100%;
+	font-size:2.3em;	
+	flex-direction:column;
+	
+}
+#explanation > div{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	padding-top:40px;
+}
+#explanation  p{
+	width:40%;
+	margin-right:10%;
+}
+#explanation img {
+	width: 10%;
+	min-width:250px;
+	height:auto;
+	padding-right:100px;
+}
+#puertoContainer{
+	background-color:#2E3532;
+	color:#E0E2DB;
+	flex-direction:column;
+}
+#puertoHeaderContainer{
+	flex-direction:column;
+	text-align:center;
+}
+#puertoHeader{
+	font-size:5em;
+	margin-bottom:50px;
+	margin-top:50px;
+}
+
+#puertoInfoContainer{
+	align-items:center;
+}
+#puertoInfo{
+	background-color:#2E3532;
+	font-size:2em;
+	width:40%;
+	text-align:right;
+	margin-bottom:50px;
+}
+#puertoInfo p{
+	margin-top:50px;
+	margin-bottom:50px;
+}
+#puertoImage{
+	width:50%;
+	text-align:center;
+
+}
+#puertoImage img{
+	width:90%;
+	height:auto;
+}
+
+#redcrossContainer{
+	flex-direction:column;
+	justify-content:flex-end;
+background-image: URL(./media/relief.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+
+
+}
+#whereitGoesHeader{
+	font-size:5em;
+	text-align:center;
+	margin-top:50px;
+}
+#redcrossLogo{
+	text-align:center;
+}
+#redcrossLogo img{
+	width:50%;
+}
+#moneyInfo{
+	font-size:2em;
+	text-align:center;
+	padding:0px 50px 50px 50px;
+}
+#redcrossOverlay{
+	background-color:rgba(0,0,0,0.3)	
+}
+#helpOutContainer{
+	background-color:#2E3532;
+	flex-direction:column;
+	text-align:center;
+}
+#weNeedHelpHeader{
+	font-size:5em;
+	padding-top:50px;
+}
+#weNeedHelpSubheader{
+	font-size:3em;
+}
+
+#whatYouCanDo{
+	margin-top:50px;
+	font-size:2.5em;
+	padding: 0px 10% 0px 10%;
+}
+#yourOptions{
+	justify-content:space-around;
+	align-content:center;
+	color:#e0e2db;
+}
+#startMiningContainer{
+	text-align:center;
+}
+
+#startMiningHeader{
+	font-size:2.5em;
+	margin-top:75px;
+}
+#startMining{
+	margin:50px auto 50px auto; 
+	background-color:#E40011;
+	color:white;
+	font-size:3em;
+	width:35%;
+	padding:25px 25px 25px 25px;
+	border-bottom:10px solid #9D1F28;
+}
+#socialMedia {
+	font-size:2em;
+	margin-top:20px;
+}
+#contactMe{
+	background-color:#9D1F28;
+	text-align:center;
+	font-size:2em;
+	padding:25px 0px 25px 0px;
+}
+#contactMe a{
+	color:#e0e2db;
+}

@@ -1,0 +1,37 @@
+*{
+
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	border: 0 0 0 0;
+	font-family:Century Gothic;
+}
+
+
+.container{
+	width:100%;
+}
+.flex{
+	display:flex;
+}
+
+header{
+	background-color:#2E3235;
+	text-align:center;
+}
+a{
+	outline:none;
+	text-decoration:none;
+}
+#headerLogo{
+	width:30%;
+	min-width:350px;
+	padding-top:25px;
+	padding-bottom:25px;
+}
+.highlight{	
+	color:#e40011;
+}
+
+@media only screen and (max-width:500px){
+
+}
