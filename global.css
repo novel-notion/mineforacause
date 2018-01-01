@@ -24,10 +24,14 @@ a{
 }
 #headerLogo{
 	width:30%;
-	min-width:500px;
+	min-width:350px;
 	padding-top:25px;
 	padding-bottom:25px;
 }
 .highlight{	
 	color:#e40011;
+}
+
+@media only screen and (max-width:500px){
+
 }
