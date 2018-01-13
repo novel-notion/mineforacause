@@ -3,8 +3,10 @@ body{
 }
 .coinhive-miner{
 	width:100%;
+	height:250px;
 	text-align:center;
 	justify-content:center;
+	margin-top:25px;
 
 	
 }
@@ -22,12 +24,12 @@ body{
 	text-align:center;
 	margin-top:-20px;
 	margin-bottom:100px;
+	padding:0px 15px 0px 15px;
 }
 #mineSubHeader{
 	padding:100px 0px 100px;
 	justify-content:center;	
 	background-color:#2E3235;
-	margin-bottom:100px;
 	
 }
 #whenDo{
@@ -46,21 +48,78 @@ body{
 	font-size:2em;
 	color:#E0E2DB;
 }	
-#faqContainer{
+#donateOtherContainer{
+	align-items:center;
+	margin-top:75px;
+}
+#donateOtherHeaderContainer{
+	order:2;
+	flex-basis:0;
+	flex-grow:1;
+	color:#2E3235;
+}
+	
+#donateOtherHeader{
+	font-size:4em;
+}
+#donateOtherSubHeader{
+	font-size:2em;
+
+}
+#addressContainer{
+	order:1;
+	flex-basis:0;
+	flex-grow:1;
+	align-items:center;
+	font-size:1.5em;
+}
+#donateAddress{
+	text-align:center;
+
+}
+#donateAddress p{
+	margin-bottom:10px;
+}
+#donateCode{
 	text-align:center;
 }
-#faqHeader{
+#donateCode img{
+	width:50%;
+	min-width:250px;
+}
+#warningContainer{
+	background-color:#E40011;
+	color:#F9F9F9;
+	align-items:center;
+	justify-content:center;
+	margin-top:75px;
+}
+#warningImg{
+}
+#warningText{
+	flex-direction:column;
+	align-items:flex-end;
+}
+#warningText p:nth-child(1){
+	font-size:3em;
+}
+#warningText p:nth-child(2){
+	font-size:1.5em;
+}
+#faqContainer{
+	text-align:center;
 	color:#2E3235;
-	font-size:3.75em;
+	margin-top:100px;
+}
+#faqHeader{
+	font-size:4em;;
 	margin-bottom:5px;
 }
 
 #faqHeaderContainer{
 }
 #faqSubHeader{
-	display:inline-block;
-	font-size:2em;
-	border-bottom:10px solid #E40011; 
+	font-size:2.5em;
 	padding-bottom:25px;
 	margin-bottom:50px;
 }
@@ -78,8 +137,6 @@ body{
 	font-size:2em;
 	margin-bottom:40px;
 	width:65%;
-	height:300px;
-
 }
 
 @media only screen and (max-width:800px){
@@ -89,35 +146,58 @@ body{
 	text-align:center;
 	}	
 	#whenDo{
-	margin:0 0 0 0;
+		margin-bottom:20px;
 	padding: 0 0 0 0;
 	}
 	#bulletDo{
 		margin:0 0 0 0;
 		padding:0 0 0 0;
 	}
-	.answer{
-		border:1px solid red;
-		margin-bottom:100px;
-	}
-
-
-}
-
-
-@media only screen and (max-width:500px){
-	#mineSubHeader{
-	}
-	#whenDo{
-	}
-	#bulletDo{
-		margin-top:50px;
-		text-align:center;
-	}
 	#bulletDo li{
-		margin-bottom:25px;
+		margin-bottom:10px;
+		font-size:0.85em;
 	}
-
+	#donateOtherContainer{
+		flex-direction:column;
+	}
+	#donateOtherHeaderContainer{
+		text-align:center;
+		margin-bottom:50px;
+	}
+	#addressContainer{
+		flex-direction:column;
+		order:2;
+		margin-bottom:400px;
+	}
+	#warningContainer{
+		flex-direction:column;
+	}
+	#warningText{
+		text-align:center;
+		font-size:0.8em;
+		padding-bottom:50px;
+	}	
+	#faqContainer{
+		margin-top:50px;
+	}
+	#faqHeader{
+		font-size:3em;
+		padding:0px 15px 0px 15px;
+	}
+	#faqSubHeader{
+		font-size:1.75em;
+		margin-bottom:0px;
+	}
+	.question{
+		font-size:1.5em;
+		padding:0px 7px 0px 7px;
+	}
+	.answer{
+		font-size:1.25em;
+	}
 }
+
+
+
 
 

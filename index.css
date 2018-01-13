@@ -1,7 +1,6 @@
 /**https://coolors.co/2e3532-545F6-f9f9ff9-e40011-9d1f28**/
 #headerLogo{
 	width:30%;	
-	min-width:500px;
 }
 #firstlookcontainer{
 	background-image: URL(./media/hurricane.jpg);
@@ -82,6 +81,7 @@
 
 #puertoInfoContainer{
 	align-items:center;
+	
 }
 #puertoInfo{
 	background-color:#2E3532;
@@ -185,3 +185,99 @@ background-image: URL(./media/relief.jpg);
 #contactMe a{
 	color:#e0e2db;
 }
+
+
+@media only screen and (max-width:800px){
+	#headerLogo{
+	}
+	#firstlookheader{
+	font-size:2em;
+	margin-bottom:20px;
+	}
+	#firstlooksubheader{
+	font-size:1em;
+	}
+	#minebutton{
+	font-size:1.5em;
+}
+	#howitworks{
+		font-size:3em;;
+	}
+	#explanation > div{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	flex-direction:column;
+	}
+	#explanation  p{
+	order:1;
+	width:60%;
+	text-align:center;
+	margin: 0 0 0 0;
+	font-size:0.75em;
+	}
+	#explanation img {
+	order:0;
+	width: 10%;
+	min-width:150px;
+	height:auto;
+	padding: 0 0 0 0;
+	}
+	#puertoInfoContainer{
+	flex-direction:column;
+	}
+	#puertoHeader{
+	font-size:3em;
+	}
+	#puertoImage{
+	width:100%;
+}
+	#puertoInfo{
+	text-align:center;
+	width:85%;
+	}
+	#whereitGoesHeader{
+	font-size:3em;
+	width:97%;
+	}
+	#redcrossLogo{
+	width:100%;
+	}
+	#redcrossLogo img{
+	width:100%;
+	}
+	#moneyInfo{
+	}
+	#weNeedHelpHeader{
+	font-size:3em;
+	}
+	#helpoutContainer{
+	text-align:center;
+}
+	#weNeedHelpSubheader{
+	font-size:2.25em;
+	padding:0 10px 0 10px;
+	}	
+	#whatYouCanDo{
+	font-size:2em;
+	}
+	#socialMedia{
+	flex-direction:column;
+	}
+	#socialMedia a{
+	margin-bottom:10px;
+}
+	#startMiningHeader{
+	font-size:3em;
+	}
+	#startMining{
+	width:250px;
+	}
+
+
+
+
+
+
+}
+
