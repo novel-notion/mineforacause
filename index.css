@@ -66,7 +66,7 @@
 }
 #puertoContainer{
 	background-color:#2E3532;
-	color:#E0E2DB;
+	color:#F9F9F9;
 	flex-direction:column;
 }
 #puertoHeaderContainer{
@@ -110,6 +110,7 @@
 background-image: URL(./media/relief.jpg);
 	background-repeat:no-repeat;
 	background-size:cover;
+	color:#F9F9F9;
 
 
 }
@@ -136,6 +137,7 @@ background-image: URL(./media/relief.jpg);
 	background-color:#2E3532;
 	flex-direction:column;
 	text-align:center;
+	color:#F9F9F9;
 }
 #weNeedHelpHeader{
 	font-size:5em;
@@ -199,9 +201,10 @@ background-image: URL(./media/relief.jpg);
 	}
 	#minebutton{
 	font-size:1.5em;
-}
+	}
 	#howitworks{
 		font-size:3em;;
+		margin-bottom:0;
 	}
 	#explanation > div{
 	display:flex;
@@ -231,7 +234,7 @@ background-image: URL(./media/relief.jpg);
 	}
 	#puertoImage{
 	width:100%;
-}
+	}
 	#puertoInfo{
 	text-align:center;
 	width:85%;
@@ -253,7 +256,7 @@ background-image: URL(./media/relief.jpg);
 	}
 	#helpoutContainer{
 	text-align:center;
-}
+	}
 	#weNeedHelpSubheader{
 	font-size:2.25em;
 	padding:0 10px 0 10px;
@@ -266,7 +269,7 @@ background-image: URL(./media/relief.jpg);
 	}
 	#socialMedia a{
 	margin-bottom:10px;
-}
+	}
 	#startMiningHeader{
 	font-size:3em;
 	}
@@ -274,10 +277,6 @@ background-image: URL(./media/relief.jpg);
 	width:250px;
 	}
 
-
-
-
-
-
 }
+
 

@@ -140,6 +140,9 @@ body{
 }
 
 @media only screen and (max-width:800px){
+	.coinhive-miner{
+	margin-bottom:25px;
+}
 	#mineSubHeader{
 	margin: 0 0 0 0;
 	display:block;
