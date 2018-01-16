@@ -193,7 +193,7 @@ background-image: URL(./media/relief.jpg);
 	#headerLogo{
 	}
 	#firstlookheader{
-	font-size:2em;
+	font-size:1.85em;
 	margin-bottom:20px;
 	}
 	#firstlooksubheader{
@@ -214,10 +214,10 @@ background-image: URL(./media/relief.jpg);
 	}
 	#explanation  p{
 	order:1;
-	width:60%;
+	width:80%;
 	text-align:center;
 	margin: 0 0 0 0;
-	font-size:0.75em;
+	font-size:0.65em;
 	}
 	#explanation img {
 	order:0;
@@ -236,11 +236,12 @@ background-image: URL(./media/relief.jpg);
 	width:100%;
 	}
 	#puertoInfo{
+	font-size:1.5em;
 	text-align:center;
 	width:85%;
 	}
 	#whereitGoesHeader{
-	font-size:3em;
+	font-size:2em;
 	width:97%;
 	}
 	#redcrossLogo{
@@ -250,6 +251,9 @@ background-image: URL(./media/relief.jpg);
 	width:100%;
 	}
 	#moneyInfo{
+	font-size:1.5em;
+	padding:0 10px 0 10px;
+	margin-bottom:15px;
 	}
 	#weNeedHelpHeader{
 	font-size:3em;
@@ -262,7 +266,8 @@ background-image: URL(./media/relief.jpg);
 	padding:0 10px 0 10px;
 	}	
 	#whatYouCanDo{
-	font-size:2em;
+	font-size:1.5em;
+
 	}
 	#socialMedia{
 	flex-direction:column;
@@ -271,12 +276,28 @@ background-image: URL(./media/relief.jpg);
 	margin-bottom:10px;
 	}
 	#startMiningHeader{
-	font-size:3em;
+	font-size:2.5em;
+	padding:0 10px 0px 10px;
 	}
 	#startMining{
 	width:250px;
 	}
 
+}
+@media only screen and (max-width:350px)
+{
+	#firstlookheader{
+	font-size:1.75em;
+	}
+	#puertoHeader{
+	font-size:2.75em;
+	}
+	#weNeedHelpHeader{
+	font-size:2.75em;
+	}
+	#weNeedHelpSubheader{
+	font-size:2em;
+	}
 }
 
 
